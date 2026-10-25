@@ -1,47 +1,41 @@
-# RabbiRack
+# RabbiRack v1.0.0
 
-A modular printable rack for Rabbit r1 devices, with removable retainers and an expandable base.
+A modular, 3D-printable desktop rack for Rabbit r1 devices. Build a single cell or join cells into rows and columns on expandable bases.
 
-![Base assembly — CAD illustration](images/baseAssembly.png)
+![Populated two-by-two RabbiRack, front view](images/assembly/1000019780.jpg)
 
-## Current design status
+**Download:** [v1.0.0 release](https://github.com/GeekTheGreyBeard/RabbiRack/releases/tag/v1.0.0). Start with the **stable-models** archive for the owner-accepted rack, retainers, base, rear foot and bowties. Slice for your own printer; machine-specific G-code is not distributed.
 
-| Component | Files | Status |
-| --- | --- | --- |
-| Rabbit rack cell and retainers | `models/*.stl` | Owner accepted; original mesh bytes unchanged. |
-| Base and rear foot | `models/base-v1.0/` | Owner reports perfect base fitment, October 24, 2026. This is not a universal load/stability rating. |
-| Edge trim and stack bowties | `models/trim-v1.0/` | First physical batch started October 24; printing at publication. Physical trim fit and retention are not yet verified. |
-| Phone panel | `models/phone-v1.0-reference/` | **Reference only — inadequate phone retention.** Owner confirms overall size works with RabbiRack but retainers are too open to hold the phone securely. Awaiting photos; do not print this revision for use. |
+## Free reuse
 
-Dimensions are in millimeters. CAD illustrations are not photographs or evidence of physical fit. Existing accepted parts are preserved; the base, trim and phone sources are versioned separately.
+Rodney / GeekTheGreyBeard dedicates his original contributions to the public domain under **[CC0-1.0](LICENSE)**, to the extent he holds those rights. Copy, modify, redistribute and use them commercially without an attribution requirement. Vendor artwork, third-party material and trademarks are excluded from that dedication. Rabbit/r1 compatibility does not imply endorsement or grant trademark rights. See [scope and notices](docs/attribution.md).
 
-## Rabbit cell assembly
+## What version 1 includes
 
-Use one `corrected-rack-section.stl`, one `keeper-0p25.stl` and two `lower-cap-0p20.stl` per cell.
+| Component | Status and location |
+| --- | --- |
+| Rabbit rack cell, keeper, lower caps | Owner accepted; `models/*.stl`. Original geometry unchanged. |
+| Base, rear foot, attachment bowtie | Owner fit-verified; `models/base-v1.0/`. Repeated machine print completed successfully. |
+| Populated assembly | Owner-supplied photographs show four r1 devices in a two-column, two-high rack. This demonstrates assembly, not a certified load or impact rating. |
+| Notched trim v1.0 | Historical optional reference in `models/trim-v1.0/`. Machine print completed; separate trim-fit acceptance not established. Excluded from stable-models archive. |
+| Closed trim v1.1 | Local red batch still printing at release preparation; physical outcome pending. Not included as a stable v1 asset. Exterior closed, cable route through rear. |
+| Phone panel | **Known inadequate retention; reference only, do not use.** Overall envelope works, retainers do not securely hold the phone. See [issue](docs/phone-retention.md). Excluded from stable-models archive. |
 
-1. Let parts cool and remove loose strings without changing mating faces.
-2. Seat the two lower caps gently, with lips pointing inward.
-3. Support the frame horizontally. Remove the top keeper, place the device on the rear pad, and slide it about 3 mm downward beneath the lower lips.
-4. Insert the keeper gently. Reverse this sequence for removal.
-5. Check rocking, retention and control access with the actual device. Do not force stems or invert a friction-fit assembly over an unprotected surface.
+## Build and assemble
 
-Caps are exported on their flat top faces with stems upward; the keeper is on its side. See [base assembly](docs/base-v1.0.md), [trim quantities and fitting order](docs/trim-v1.0.md), and [phone retention issue](docs/phone-retention.md).
+- [Bill of materials and modular layouts](docs/bom.md)
+- [Assembly and cable routing](docs/assembly.md)
+- [Print settings and orientation](docs/printing.md)
+- [Rebuild from source and verify](docs/build.md)
+- [Base details](docs/base-v1.0.md), [historical trim](docs/trim-v1.0.md)
+- [Changelog](CHANGELOG.md), [provenance](docs/provenance.md)
 
-## Rebuild and verify
+Dimensions are in millimeters. A rack cell is **106 × 106 × 27.6 mm** overall, on a 106 mm joining pitch. The base deck is **106 × 110 × 14 mm**, with saddles reaching 37 mm and a 12.5° backward rack tilt. The rear foot extends the assembled footprint to 158.3 mm depth.
 
-Requires Blender with bundled Python. Verified with Blender 5.0.1:
+## Owner assembly gallery
 
-```sh
-blender --background --factory-startup --threads 2 --python source/buildRack.py
-blender --background --factory-startup --threads 2 --python source/buildBase.py
-blender --background --factory-startup --threads 2 --python source/buildTrim.py
-(cd models && sha256sum -c SHA256SUMS)
-```
+![Populated assembly, angled view](images/assembly/1000019782.jpg)
 
-Outputs default to `build/`, `build/base-v1.0/` and `build/trim-v1.0/`. Set `RABBIRACK_OUTPUT` to override. `source/buildPhoneReference.py` reproduces the historical phone geometry solely for investigation; it is not a print recommendation. Its lower caps are the original `models/lower-cap-0p20.stl`.
+![Populated assembly, opposite side](images/assembly/1000019781.jpg)
 
-The publication checks regenerate and compare the meshes with Blender 5.0.1. Other Blender versions may change Boolean triangulation or binary output; checked-in STL files remain the reference. Each generator checks one connected solid, positive volume and no nonmanifold edges. These checks do not establish physical strength or retention.
-
-Slice for your own printer and material. Printer-specific G-code, profiles, slicer archives, private photographs and execution logs are intentionally excluded. No additional print is authorized by this repository update.
-
-See [provenance](docs/provenance.md) and [attribution and licensing](docs/attribution.md).
+These are owner photographs, not CAD renders. Publication copies are cropped with opaque background redactions to remove unrelated monitor content; orientation is preserved and EXIF/GPS metadata removed. Original private photographs are not distributed. Visible assembly pixels are photographic; no product features were generated. Photos are evidence of the shown build, not proof of every future layout or fit.

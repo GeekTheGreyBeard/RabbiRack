@@ -1,6 +1,8 @@
-# Trim v1.0 — first print in progress, physical fit pending
+> Historical optional reference. Its October 24 machine job completed successfully; physical trim-fit acceptance is not established. Excluded from the v1.0.0 stable-models archive. Closed trim is separate in-progress work.
 
-This revision finishes one base and two Rabbit rack cells stacked vertically at the existing 106 mm pitch. The owner authorized the first batch on October 24, 2026. The batch was started once; no completed-print or owner fit acceptance is claimed here.
+# Trim v1.0 — completed machine print, physical fit pending
+
+This revision finishes one base and two Rabbit rack cells stacked vertically at the existing 106 mm pitch. The owner authorized the first batch on October 24, 2026. The machine job completed successfully on October 24. Separate owner acceptance of trim fit is not established.
 
 ## Exact batch and existing parts
 
