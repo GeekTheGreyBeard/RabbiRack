@@ -17,3 +17,5 @@ Compare regenerated meshes with the checked-in reference STLs. Blender versions 
 `source/buildTrim.py` rebuilds historical notched trim into `build/trim-v1.0/`. It is optional reference work, not a stable-models archive recommendation. `source/buildPhoneReference.py` is investigation-only: its phone retention is inadequate. The source/docs archive and GitHub's automatic source archives retain these clearly labeled references; the stable-models archive excludes them.
 
 Release archives carry SHA256 checksums. No local paths, printer addresses, credentials, execution logs, private photo originals or machine-specific G-code belong in release assets.
+
+`source/buildClosedTrim.py` regenerates the pending-fit closed accessory into `build/trim-closed-v1.1/`. See [its fitting guide](trim-closed-v1.1.md). This main-branch addition is not in the frozen v1.0.0 archives.

@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased — closed trim documentation
+
+- Added exact closed rail meshes from the active red print, portable source, fitting diagram, quantities and instructions. Physical fit pending.
+- Documented isolated-column top caps and their overlap limitation for adjacent columns. No geometry or v1.0.0 release assets changed.
+
 ## v1.0.0 — 2026-10-25
 
 - First tagged public RabbiRack release: accepted Rabbit cell, keeper/lower caps, fit-verified expanding base, removable rear foot and bowtie interfaces.

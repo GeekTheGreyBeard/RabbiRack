@@ -18,7 +18,7 @@ Rodney / GeekTheGreyBeard dedicates his original contributions to the public dom
 | Base, rear foot, attachment bowtie | Owner fit-verified; `models/base-v1.0/`. Repeated machine print completed successfully. |
 | Populated assembly | Owner-supplied photographs show four r1 devices in a two-column, two-high rack. This demonstrates assembly, not a certified load or impact rating. |
 | Notched trim v1.0 | Historical optional reference in `models/trim-v1.0/`. Machine print completed; separate trim-fit acceptance not established. Excluded from stable-models archive. |
-| Closed trim v1.1 | Local red batch still printing at release preparation; physical outcome pending. Not included as a stable v1 asset. Exterior closed, cable route through rear. |
+| Closed trim v1.1 | [Files and fitting guide](docs/trim-closed-v1.1.md), `models/trim-closed-v1.1/`. Exact active-print geometry; **physical fit pending**. Main-branch addition, excluded from unchanged v1.0.0 assets. |
 | Phone panel | **Known inadequate retention; reference only, do not use.** Overall envelope works, retainers do not securely hold the phone. See [issue](docs/phone-retention.md). Excluded from stable-models archive. |
 
 ## Build and assemble
@@ -27,6 +27,7 @@ Rodney / GeekTheGreyBeard dedicates his original contributions to the public dom
 - [Assembly and cable routing](docs/assembly.md)
 - [Print settings and orientation](docs/printing.md)
 - [Rebuild from source and verify](docs/build.md)
+- [Closed trim: quantities, orientation and installation](docs/trim-closed-v1.1.md)
 - [Base details](docs/base-v1.0.md), [historical trim](docs/trim-v1.0.md)
 - [Changelog](CHANGELOG.md), [provenance](docs/provenance.md)
 

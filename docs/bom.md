@@ -22,3 +22,7 @@ A vertical or horizontal cell-to-cell seam has two matching key sockets: use two
 The owner photos show the two-by-two arrangement populated. Larger arrays are mechanically conceivable on the 106 mm pitch but are not load-qualified. Add supported base columns and check stability; do not assume arbitrary stack heights are safe.
 
 Trim is optional and does not replace structural keys. Historical notched rails are reference-only in this release; the closed variant was still being printed. For a single two-high column the old perimeter scheme uses 2 left rails, 2 right rails, 1 top cap and 2 base sides. Only exposed edges receive trim; shared seams must remain available for joining. Closed trim uses rear cable routing. Phone retainers are a known unresolved defect and excluded from stable BOM.
+
+## Closed trim addition after v1.0.0
+
+See [closed trim v1.1](trim-closed-v1.1.md) for exact rail counts, rear routing and fitting order. Physical fit is pending. Use only exposed edges; 113 mm top caps overlap at adjacent 106 mm column pitches and are currently documented for isolated columns. Structural bowties remain separate from integral trim tongues.
