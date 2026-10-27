@@ -19,7 +19,7 @@ Rodney / GeekTheGreyBeard dedicates his original contributions to the public dom
 | Populated assembly | Owner-supplied photographs show four r1 devices in a two-column, two-high rack. This demonstrates assembly, not a certified load or impact rating. |
 | Notched trim v1.0 | Historical optional reference in `models/trim-v1.0/`. Machine print completed; separate trim-fit acceptance not established. Excluded from stable-models archive. |
 | Closed trim v1.1 | [Files and fitting guide](docs/trim-closed-v1.1.md), `models/trim-closed-v1.1/`. Exact active-print geometry; **physical fit pending**. Main-branch addition, excluded from unchanged v1.0.0 assets. |
-| Phone panel | **Known inadequate retention; reference only, do not use.** Overall envelope works, retainers do not securely hold the phone. See [issue](docs/phone-retention.md). Excluded from stable-models archive. |
+| Phone panel v1.1 | **Owner fit-verified with pegs alone, without removable caps.** [STL, measured correction and assembly guide](docs/phone-v1.1.md). Historical v1.0 remains reference-only. This main-branch addition is not in the frozen v1.0.0 archive. |
 
 ## Build and assemble
 
@@ -28,6 +28,7 @@ Rodney / GeekTheGreyBeard dedicates his original contributions to the public dom
 - [Print settings and orientation](docs/printing.md)
 - [Rebuild from source and verify](docs/build.md)
 - [Closed trim: quantities, orientation and installation](docs/trim-closed-v1.1.md)
+- [Phone holder v1.1: fit and assembly](docs/phone-v1.1.md)
 - [Base details](docs/base-v1.0.md), [historical trim](docs/trim-v1.0.md)
 - [Changelog](CHANGELOG.md), [provenance](docs/provenance.md)
 

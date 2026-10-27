@@ -19,3 +19,5 @@ Compare regenerated meshes with the checked-in reference STLs. Blender versions 
 Release archives carry SHA256 checksums. No local paths, printer addresses, credentials, execution logs, private photo originals or machine-specific G-code belong in release assets.
 
 `source/buildClosedTrim.py` regenerates the pending-fit closed accessory into `build/trim-closed-v1.1/`. See [its fitting guide](trim-closed-v1.1.md). This main-branch addition is not in the frozen v1.0.0 archives.
+
+`source/buildPhone.py` rebuilds owner-fit-verified phone v1.1 into `build/phone-v1.1/` (or `RABBIRACK_OUTPUT`). Blender 5.0.1 reproduced the exact printed panel STL byte-for-byte. It also generates the unchanged reference joint key; only the panel is needed to replace an existing holder. See [phone fit/assembly](phone-v1.1.md). No removable caps were printed in the v1.1 test.

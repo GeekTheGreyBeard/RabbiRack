@@ -1,3 +1,10 @@
+# Phone v1.1 main-branch addition — 2026-10-27
+
+- Publish exact successfully printed, owner-fit-verified phone panel and portable generator.
+- Add 2.38125 mm inward end contact reach and 3.175 mm inward side reach per opposing contact; outer frame/interfaces unchanged.
+- Document owner acceptance without removable caps; no caps printed/tested in this revision.
+- Preserve historical v1.0 and frozen release; fitted photo awaiting privacy review.
+
 # Changelog
 
 ## Unreleased — closed trim documentation
