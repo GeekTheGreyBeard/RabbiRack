@@ -29,6 +29,8 @@ Use existing compatible bowtie keys at the rack joining interfaces. A full-heigh
 
 ## Photographs
 
-A fitted assembly photo has been supplied and inspected. Publication is pending privacy review of lock-screen contact text. No camera-monitoring frames or synthetic fitted-phone images are included. Approved publication copies will be stored in `images/phone-v1.1/`.
+![Owner photograph of the fitted phone holder beside the populated RabbiRack](../images/phone-v1.1/IMG_0106-redacted.png)
+
+Owner-supplied photograph of the actual fitted assembly, published with permission. A plain opaque rectangle covers lock-screen name/email text. Every decoded pixel outside that mask is identical to the original photograph; dimensions and orientation are preserved. The lossless publication copy contains no EXIF/GPS or other embedded metadata. No generative edits were used in this published image. The original remains private. Physical retention acceptance is the owner's report; a photograph alone does not certify holding force.
 
 The [historical v1.0](phone-retention.md) remains available as a clearly marked inadequate-retention reference, not the recommended holder.

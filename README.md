@@ -41,3 +41,9 @@ Dimensions are in millimeters. A rack cell is **106 × 106 × 27.6 mm** overall,
 ![Populated assembly, opposite side](images/assembly/1000019781.jpg)
 
 These are owner photographs, not CAD renders. Publication copies are cropped with opaque background redactions to remove unrelated monitor content; orientation is preserved and EXIF/GPS metadata removed. Original private photographs are not distributed. Visible assembly pixels are photographic; no product features were generated. Photos are evidence of the shown build, not proof of every future layout or fit.
+
+## Phone holder v1.1 fitted assembly
+
+![Owner-fitted phone holder with populated rack](images/phone-v1.1/IMG_0106-redacted.png)
+
+Owner confirms the revised pegs hold the cased phone securely without removable caps. See [fit and assembly details](docs/phone-v1.1.md). This real photograph has only authorized contact-text masking and metadata removal; hardware pixels outside the mask are unchanged.

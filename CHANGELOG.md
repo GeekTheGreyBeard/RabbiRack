@@ -3,7 +3,7 @@
 - Publish exact successfully printed, owner-fit-verified phone panel and portable generator.
 - Add 2.38125 mm inward end contact reach and 3.175 mm inward side reach per opposing contact; outer frame/interfaces unchanged.
 - Document owner acceptance without removable caps; no caps printed/tested in this revision.
-- Preserve historical v1.0 and frozen release; fitted photo awaiting privacy review.
+- Preserve historical v1.0 and frozen release; owner fitted-assembly photo published with authorized contact-text masking and metadata removal.
 
 # Changelog
 
